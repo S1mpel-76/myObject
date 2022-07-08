@@ -1,0 +1,10 @@
+dubbo:
+  registry:
+    address: zookeeper://192.168.40.130:2181
+  application:
+    name: qg-pay-provider
+  protocol:
+    port: 20883
+spring:
+  profiles:
+    active: dev

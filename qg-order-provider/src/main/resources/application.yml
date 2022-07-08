@@ -1,0 +1,10 @@
+dubbo:
+  registry:
+    address: zookeeper://192.168.40.130:2181
+  application:
+    name: qg-order-provider
+  protocol:
+    port: 20882
+spring:
+  profiles:
+    active: dev

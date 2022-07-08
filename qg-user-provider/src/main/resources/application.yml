@@ -1,0 +1,8 @@
+dubbo:
+  registry:
+    address: zookeeper://192.168.40.130:2181
+  application:
+    name: qg-user-provider
+spring:
+  profiles:
+    active: dev
